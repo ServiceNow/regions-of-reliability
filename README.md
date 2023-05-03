@@ -11,7 +11,7 @@
 
 # Contents
 
-All results reported in the paper can be reproduced using the provided [notebooks](https://github.com/ServiceNow/regions-of-reliability/tree/main/notebooks). Some of these require our raw experimental data, which can be found attached to the [releases](https://github.com/ServiceNow/regions-of-reliability/releases).
+All results reported in the paper can be reproduced using the provided [notebooks](https://github.com/ServiceNow/regions-of-reliability/tree/main/notebooks). Some of these require our [raw experimental data](https://github.com/ServiceNow/regions-of-reliability/releases/download/v0.1/data.tar.gz), which can be found attached to the releases.
 
 * [calibrate_experiments.ipynb](./notebooks/calibrate_experiments.ipynb): calibration of the difficulty of the test cases based on the power of the negative log likelihood.
 * [optimize_solar.ipynb](./notebooks/optimize_solar.ipynb): real data experiments using the solar dataset.
