@@ -9,6 +9,17 @@
 <img src="banner.png" />
 
 
+# Contents
+
+All results reported in the paper can be reproduced using the provided [notebooks](https://github.com/ServiceNow/regions-of-reliability/tree/main/notebooks). Some of these require our raw experimental data, which can be found attached to the [releases](https://github.com/ServiceNow/regions-of-reliability/releases).
+
+* [calibrate_experiments.ipynb](./notebooks/calibrate_experiments.ipynb): calibration of the difficulty of the test cases based on the power of the negative log likelihood.
+* [optimize_solar.ipynb](./notebooks/optimize_solar.ipynb): real data experiments using the solar dataset.
+* [plot_power_vs_epsilon_covariance.ipynb](./notebooks/plot_power_vs_epsilon_covariance.ipynb): produces Figure 9 of the paper.
+* [plot_ror_results.ipynb](./notebooks/plot_ror_results.ipynb): plot a single region of reliability heatmap (e.g., Figure 2).
+* [plot_ror_results_all.ipynb](./notebooks/plot_ror_results_all.ipynb): plot all region of reliability heatmaps, produce the aggregated results (Figure 8), and generate Table 3.
+
+
 # Citing this work
 
 Please use the following Bibtex entry:
